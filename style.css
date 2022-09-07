@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.menu-item{
+    width: 50%;
+}
+.logo h1{
+    font-size: 70px;
+    margin-top: -10px;
+    font-style: italic;
+}
+.menu-item ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+}
+.menu-item ul li{
+    padding: 5px 15px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
