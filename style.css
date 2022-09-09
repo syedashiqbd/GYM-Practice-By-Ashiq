@@ -76,10 +76,17 @@ p {
   justify-content: space-around;
   text-align: center;
 }
-
-.card1,
-.card2,
-.card3 {
+.card-items img {
+  display: block;
+  width: 30%;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.card-items p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.card {
   width: 350px;
   height: 350px;
   border: 1px solid gray;
@@ -87,29 +94,10 @@ p {
   justify-content: center;
   box-shadow: 8px 8px 5px gray;
   padding: 0 20px;
-  /* margin-top: 20px; */
 }
-.card1 img,
-.card2 img,
-.card3 img {
-  display: block;
-  width: 30%;
-  margin: 10px auto;
-  text-decoration: none;
-}
-.card1 p,
-.card2 p,
-.card3 p {
-  text-align: justify;
-  margin-bottom: 20px;
-}
-.card1:hover,
-.card2:hover,
-.card3:hover {
+.card:hover {
   border: 1px solid red;
-  /* /* width: 350px; */
   height: 400px;
   transition: 0.8s;
   margin-top: -40px;
-  /* position: fixed; */
 }
