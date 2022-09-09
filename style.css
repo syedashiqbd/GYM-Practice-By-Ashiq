@@ -1,65 +1,115 @@
-body, h1, p{
-    margin: 0;
+body,
+h1,
+p {
+  margin: 0;
+  box-sizing: border-box;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
 }
-.menu-item{
-    width: 50%;
+.menu-item {
+  width: 50%;
 }
-.logo h1{
-    font-size: 70px;
-    font-style: italic;
+.logo h1 {
+  font-size: 70px;
+  font-style: italic;
 }
-.menu-item ul{
-    display: flex;
-    justify-content: right;
-    margin-right: 80px;
+.menu-item ul {
+  display: flex;
+  justify-content: right;
+  margin-right: 80px;
 }
-.menu-item ul li{
-    padding: 5px 15px;
-    list-style: none;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 20px;
+.menu-item ul li {
+  padding: 5px 15px;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
 }
-.top-banner{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
 }
-.left-item{
-    width: 60%;
-    margin-left: 3%;
-    margin-top: 6%;
+.left-item {
+  width: 60%;
+  margin-left: 3%;
+  margin-top: 6%;
 }
-.left-item p{
-    font-size: 20px;
-    margin-bottom: 20px;
+.left-item p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
-.left-item p:first-of-type{
-    color: red;
+.left-item p:first-of-type {
+  color: red;
 }
-.left-item h1{
-    font-size:70px;
-    margin-bottom: 20px;
+.left-item h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
 }
-.right-item{
-    width: 40%;
+.right-item {
+  width: 40%;
 }
-.right-item img{
-    width: 100%;
+.right-item img {
+  width: 100%;
 }
-.link-btn{
-    margin-top: 20px;
-    display:inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 20px 60px;
-    background-color: red;
-    border-radius: 5px;
+.link-btn {
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 60px;
+  background-color: red;
+  border-radius: 5px;
+}
+.take-a-look h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 50px 0 100px;
+}
+.card-items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 8px 8px 5px gray;
+  padding: 0 20px;
+  /* margin-top: 20px; */
+}
+.card1 img,
+.card2 img,
+.card3 img {
+  display: block;
+  width: 30%;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.card1 p,
+.card2 p,
+.card3 p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  border: 1px solid red;
+  /* /* width: 350px; */
+  height: 400px;
+  transition: 0.8s;
+  margin-top: -40px;
+  /* position: fixed; */
 }
