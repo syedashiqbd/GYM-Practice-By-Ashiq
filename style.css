@@ -142,3 +142,28 @@ p {
   font-size: 20px;
   margin-left: -20px;
 }
+.lets-chat {
+  padding: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: 60px auto;
+  background-image: url(images/shape/lets-chat.png);
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+.lets-chat h1 {
+  font-size: 30px;
+}
+.lets-chat-btn button {
+  padding: 15px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.lets-chat-btn button:hover {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+}
