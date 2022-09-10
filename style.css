@@ -1,8 +1,5 @@
-body,
-h1,
-p {
+body {
   margin: 0 auto;
-  box-sizing: border-box;
 }
 .container {
   display: flex;
@@ -181,7 +178,7 @@ p {
   width: 25%;
   border-radius: 5px;
   box-shadow: 10px 10px 15px gray;
-  line-height: 40px;
+  line-height: 20px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -189,11 +186,24 @@ p {
   width: 100%;
   border-radius: 5px;
 }
-.item > p:first-of-type {
+.batch {
+  position: relative;
+}
+.batch img {
+  width: 70px;
+  top: -25px;
+  left: 90%;
+  position: absolute;
+}
+.itm-txt-area {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.itm-txt-area > p:first-of-type {
   color: red;
   font-size: 20px;
 }
-.item > h1:first-of-type {
+.itm-txt-area > h1:first-of-type {
   font-size: 30px;
 }
 .itm-btm-txt {
@@ -201,16 +211,10 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-.btm-txt-h1 {
-  font-size: 25px;
+.itm-btm-txt h1 {
+  font-size: 30px;
 }
-.btm-txt-h3 {
+.itm-btm-txt p {
   font-size: 20px;
   color: red;
-}
-.item p,
-.item h1,
-.item div {
-  padding-left: 10px;
-  padding-right: 10px;
 }
